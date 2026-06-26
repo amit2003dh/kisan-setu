@@ -1,19 +1,23 @@
-# 🌾 KisanSetu - Agricultural Marketplace Platform
+# 🚜 KisanSetu
 
-## 📋 **Project Overview**
+KisanSetu is a comprehensive, full-stack marketplace platform designed to empower local farmers by connecting them directly with buyers, eliminating middlemen, and maximizing profits. The platform features an intelligent AI-driven leaf disease detection system and real-time negotiation capabilities to streamline transactions.
 
-KisanSetu is a comprehensive agricultural marketplace platform that connects farmers, sellers, and buyers through a modern web application. It features AI-powered crop analysis, real-time delivery tracking, secure payment processing, and complete administrative control.
+🔗 **Live Demo:** [https://portfolio-chi-five-4frqv0oa3d.vercel.app/](https://portfolio-chi-five-4frqv0oa3d.vercel.app/) *(Replace with your actual KisanSetu live URL)*
 
-### **🎯 Key Features**
-- **🌾 Multi-Role System**: Farmers, Sellers, Buyers, Delivery Partners, Admins
-- **🤖 AI-Powered Analysis**: Google Gemini crop disease detection
-- **📦 Marketplace**: Buy/sell crops and agricultural products
-- **🚚 Real-time Tracking**: Live delivery tracking with Socket.io
-- **💳 Secure Payments**: Razorpay payment integration
-- **📊 Analytics Dashboard**: Performance insights and reporting
-- **📱 Mobile Responsive**: Optimized for all device types
-- **🛡️ Enterprise Security**: Advanced security features
+## 🚀 Key Features
 
+- **Direct B2B Marketplace:** Allows farmers to list their produce with pricing, quantity, and location details while enabling buyers to browse and purchase directly.
+- **AI-Powered Disease Detection:** Integrated with Google Gemini AI to analyze uploaded crop images, diagnose plant diseases instantly, and provide actionable remedies.
+- **Real-Time Negotiation Chat:** Powered by Socket.io, enabling seamless, live price negotiations and communication between buyers and farmers.
+- **Secure Authentication:** Robust user authentication and authorization built with JWT to safeguard personal and transactional data.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, HTML5, CSS3, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **AI Integration:** Google Gemini API
+- **Real-Time WebSockets:** Socket.io
 ---
 
 ## 🏗️ **Project Architecture**
@@ -27,31 +31,6 @@ KisanSetu/
 └── README.md          # This file
 ```
 
-### **Technology Stack**
-
-#### **Frontend & Admin**
-- **React 19.2.3**: Modern React with hooks
-- **React Router 7.11.0**: Client-side routing
-- **Axios 1.13.2**: HTTP client for API calls
-- **Socket.io Client 4.8.3**: Real-time communication
-- **CSS3**: Custom styling with responsive design
-
-#### **Backend**
-- **Node.js 16+**: JavaScript runtime
-- **Express.js 5.2.1**: Web framework
-- **MongoDB 9.1.1**: NoSQL database with Mongoose ODM
-- **Socket.io 4.8.3**: Real-time communication
-- **JWT**: JSON Web Token authentication
-- **Multer 2.0.2**: File upload handling
-
-#### **Third-party Integrations**
-- **Google Gemini AI**: Crop disease analysis
-- **Razorpay**: Payment processing
-- **Google Maps**: Location services
-- **Render/Heroku**: Cloud deployment
-
----
-
 ## 🚀 **Quick Start**
 
 ### **Prerequisites**
@@ -64,8 +43,8 @@ KisanSetu/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/amit2003dh/KisanSetu_.git
-   cd KisanSetu_
+   git clone https://github.com/amit2003dh/kisan-setu.git
+   cd kisan-setu
    ```
 
 2. **Backend Setup**
