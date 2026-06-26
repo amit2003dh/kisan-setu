@@ -2,7 +2,7 @@
 
 KisanSetu is a comprehensive, full-stack marketplace platform designed to empower local farmers by connecting them directly with buyers, eliminating middlemen, and maximizing profits. The platform features an intelligent AI-driven leaf disease detection system and real-time negotiation capabilities to streamline transactions.
 
-🔗 **Live Demo:** [https://portfolio-chi-five-4frqv0oa3d.vercel.app/](https://portfolio-chi-five-4frqv0oa3d.vercel.app/) *(Replace with your actual KisanSetu live URL)*
+🔗 **Live Demo:** [https://kisan-set-frontend-71z4.vercel.app/](https://kisan-set-frontend-71z4.vercel.app/) 
 
 ## 🚀 Key Features
 
